@@ -13,7 +13,7 @@
             <div class="col-lg-8">
                 <article class="cropium-blog-item">
                     <div class="blog-image">
-                        <img src="{{ asset('assets/images') . '/' . $post->thumbnail }}" alt="">
+                        <img src="{{ $post->thumbnail }}" alt="">
                         <div class="blog-date">
                             <h5 class="title">14</h5>
                             <span>oct</span>
