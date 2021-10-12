@@ -15,7 +15,7 @@
                 @foreach ($posts as $singlePost)
                 <article class="cropium-blog-item">
                     <div class="blog-image">
-                        <img src="{{ $singlePost->thumbnail }}" alt="">
+                        <img src="{{ asset('assets/images') . '/' . $singlePost->thumbnail }}" alt="">
                         <div class="blog-date">
                             <h5 class="title">14</h5>
                             <span>oct</span>
